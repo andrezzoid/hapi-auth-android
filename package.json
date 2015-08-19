@@ -1,11 +1,11 @@
 {
-  "name": "hapi-auth-bearer-token",
-  "description": "Simple Bearer authentication scheme plugin for hapi, accepts token by Header or Query parameter.",
-  "version": "3.1.1",
-  "author": "John Brett <johnbrett7@gmail.com> (http://blog.johnbrett.me)",
+  "name": "hapi-auth-android",
+  "description": "Simple Android authentication scheme plugin for hapi, accepts token by Header or Query parameter.",
+  "version": "0.1.0",
+  "author": "Andrezzoid <andre.jonas@gmail.com> (http://andrejonas.me)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/johnbrett/hapi-auth-bearer-token"
+    "url": "git://github.com/andrezzoid/hapi-auth-android"
   },
   "main": "index",
   "keywords": [
@@ -16,30 +16,35 @@
     "bearer",
     "access",
     "token",
-    "authentication"
+    "authentication",
+    "android",
+    "google",
+    "sign-in"
   ],
   "engines": {
     "node": ">=0.10.22"
   },
   "dependencies": {
     "boom": "2.x.x",
-    "hoek": "2.x.x"
+    "hoek": "2.x.x",
+    "google-auth-library": "0.9.6"
   },
   "peerDependencies": {
     "hapi": ">=8.x.x"
   },
   "devDependencies": {
+    "code": "1.x.x",
     "hapi": "8.x.x",
     "lab": "5.x.x",
-    "code": "1.x.x"
+    "sinon": "^1.15.4"
   },
   "scripts": {
     "test": "node ./node_modules/lab/bin/lab -a code -c -L"
   },
   "bugs": {
-    "url": "https://github.com/johnbrett/hapi-auth-bearer-token/issues"
+    "url": "https://github.com/andrezzoid/hapi-auth-android/issues"
   },
-  "homepage": "https://github.com/johnbrett/hapi-auth-bearer-token",
+  "homepage": "https://github.com/andrezzoid/hapi-auth-android",
   "directories": {
     "test": "test"
   },
